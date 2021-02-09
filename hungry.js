@@ -32,15 +32,14 @@ const dataLoad = foods => {
         foodDiv.innerHTML = foodInfo;
         foodsDiv.appendChild(foodDiv);
 
-        // console.log(food.idMeal);
+
     });
 }
 
 
 
 const getFoodDetails = id => {
-    console.log(id);
-    console.log("object");
+
     const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`;
     fetch(url)
         .then(res => res.json())
@@ -49,12 +48,12 @@ const getFoodDetails = id => {
 
 
 const renderFoodInfo = item => {
-    console.log(item);
+
 
     const foodsContainer = document.querySelector("#foods-container");
     const searchBar = document.querySelector("#search-bar");
     foodDetails.style.display = "block"
-    console.log(foodDetails);
+
 
     const foodDetail = `
     <img  class="foodImg" src="${item.strMealThumb}">
