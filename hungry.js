@@ -64,13 +64,27 @@ const renderFoodInfo = item => {
     <h6>Ingredients</h6>
     <br>
     <br>
-    <p> &#x2705 ${item.strMeasure1} ${item.strIngredient1}  </p>
-    <p> &#x2705 ${item.strMeasure2} ${item.strIngredient2}  </p>
-    <p> &#x2705 ${item.strMeasure3} ${item.strIngredient3}  </p>
-    <p> &#x2705 ${item.strMeasure4} ${item.strIngredient4}  </p>
-    <p> &#x2705 ${item.strMeasure5} ${item.strIngredient5}  </p>
-    <p> &#x2705 ${item.strMeasure6} ${item.strIngredient6}  </p>
-    <p> &#x2705 ${item.strMeasure7} ${item.strIngredient7}  </p>
+     ${item.strMeasure1 && ` <p>  &#x2705 ${item.strMeasure1} ${item.strIngredient1}  </p>`}
+     ${item.strMeasure2 && ` <p>  &#x2705 ${item.strMeasure2} ${item.strIngredient2}  </p>`}
+     ${item.strMeasure3 && ` <p>  &#x2705 ${item.strMeasure3} ${item.strIngredient3}  </p>`}
+     ${item.strMeasure4 && ` <p>  &#x2705 ${item.strMeasure4} ${item.strIngredient4}  </p>`}
+     ${item.strMeasure5 && ` <p>  &#x2705 ${item.strMeasure5} ${item.strIngredient5}  </p>`}
+     ${item.strMeasure6 && ` <p>  &#x2705 ${item.strMeasure6} ${item.strIngredient6}  </p>`}
+     ${item.strMeasure7 && ` <p>  &#x2705 ${item.strMeasure7} ${item.strIngredient7}  </p>`}
+     ${item.strMeasure8 && ` <p>  &#x2705 ${item.strMeasure8} ${item.strIngredient8}  </p>`}
+     ${item.strMeasure9 && ` <p>  &#x2705 ${item.strMeasure9} ${item.strIngredient9}  </p>`}
+     ${item.strMeasure10 && ` <p>  &#x2705 ${item.strMeasure10} ${item.strIngredient10}  </p>`}
+     ${item.strMeasure11 && ` <p>  &#x2705 ${item.strMeasure11} ${item.strIngredient11}  </p>`}
+     ${item.strMeasure12 && ` <p>  &#x2705 ${item.strMeasure12} ${item.strIngredient12}  </p>`}
+     ${item.strMeasure13 && ` <p>  &#x2705 ${item.strMeasure13} ${item.strIngredient12}  </p>`}
+     ${item.strMeasure14 && ` <p>  &#x2705 ${item.strMeasure14} ${item.strIngredient14}  </p>`}
+     ${item.strMeasure15 && ` <p>  &#x2705 ${item.strMeasure15} ${item.strIngredient15}  </p>`}
+     ${item.strMeasure16 && ` <p>  &#x2705 ${item.strMeasure16} ${item.strIngredient16}  </p>`}
+     ${item.strMeasure17 && ` <p>  &#x2705 ${item.strMeasure17} ${item.strIngredient17}  </p>`}
+     ${item.strMeasure18 && ` <p>  &#x2705 ${item.strMeasure18} ${item.strIngredient18}  </p>`}
+     ${item.strMeasure19 && ` <p>  &#x2705 ${item.strMeasure19} ${item.strIngredient19}  </p>`}
+     ${item.strMeasure20 && ` <p>  &#x2705 ${item.strMeasure20} ${item.strIngredient20}  </p>`}
+    
 
 
     `
