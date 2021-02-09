@@ -1,0 +1,22 @@
+#food{
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+}
+.food{
+    width: 350px;
+    height: 430px;
+    border: 2px solid goldenrod;
+    box-shadow: goldenrod 50px;
+    display: inline-block;
+    margin: 0px 20px 30px 0px;
+    
+}
+.foodImg{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+}
+#foodDetails{
+    display: none;
+    margin: 0 auto;
+} 
